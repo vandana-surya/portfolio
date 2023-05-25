@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<< Home page CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(228, 224, 224);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+
+}
+
+.sidebar nav {
+    padding: 21px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 40px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 23px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: rgb(255, 0, 170);  */
+    height: 55vh;
+    width: 80vw;
+    margin: 111px auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.devpic img {
+    height: 55vh;
+    width: 550px;
+    margin-left: -20px;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.hello {
+    font-size: 2.5em;
+
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+
+    font-size: 1.8em;
+}
+
+.moreabout {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    margin-top: 12px;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 13px;
+}
+
+.buttons button {
+    width: 133px;
+    height: 43px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(165, 79, 247);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+/* -------------Contact form CSS--------------- */
+
+.contactform {
+    /* background: url(https://emedia1.nhs.wales/ABUhb/cache/file/DA735931-0E3C-4187-9713851598F016D3_carouselimage.jpg) no-repeat center center/cover; */
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+    font-weight: 100px;
+    margin: 52px 85px;
+}
+
+.contactform h1 {
+    font-family: 'Fira Sans', sans-serif;
+    /* padding: 12px 0; */
+    color: black;
+    margin-left: 36px;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform form div input {
+    /* width: 25vw; */
+    border-radius: 5px;
+    margin: 2px 0;
+    padding: 4px 0;
+
+}
+
+.contactform form {
+    margin: 0px 40px;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: black;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.button {
+    padding: 4px 13px;
+    border-radius: 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: darkblue;
+    background-color: white;
+}
+
+/* ////////////////////////////////      Blog Page CSS      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.blogContainer {
+    margin: 88px;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+p {
+
+    font-family: 'Source Code Pro', monospace;
+}
+
+.blogItem p a {
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+button {
+    border-radius: 28px;
+    margin-top: 6px;
+    width: 92px;
+    height: 31px;
+    background-color: rgb(91, 179, 214);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+
+    background-color: white;
+}
+
+button a:hover {
+    color: blue;
+}
+
+
+
+/* .btn a{
+   
+    padding: 2px 0px;
+    border-radius: 23px;
+    color: white;
+    font-size: 12px;
+    margin: 10px 0px;
+    cursor: pointe;
+    text-decoration: none;
+    text-align: center;
+    color:darkblue;
+} */
+
+
+/***************************   intro page Css   **********************************/
+.intro {
+    margin: 36px 88px;
+}
+
+.intro2 {
+    margin-top: 20px;
+}
+
+.intro h2 {
+
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 34px;
+    font-weight: 900;
+}
+
+.intro h3 {
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    word-spacing: normal;
+    text-align: justify;
+    margin-top: 8px;
+}
+
+.skillContainer {
+    padding: 12px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+
+
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    text-align: justify;
+
+}
+
+.skill {
+    width: 400px;
+    height: 6px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.seventy {
+    width: 250px;
+    height: 6px;
+    background-color: blueviolet;
+
+}
+
+.fifty {
+    width: 150px;
+    background-color: rgb(240, 61, 7);
+    border: 2px solid black;
+}
+
+.t5 {
+    width: 70px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.sidebarGo {
+    transform: translate(-435px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 120px;
+    margin-top: 4px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<  my Work Page   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.myWorkContainer {
+    margin: 66px 97px;
+
+}
+
+.myWorkContainer h1 {
+    margin: 6px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5em;
+}
+
+.myWorkContainer li {
+    margin: 21px 36px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8em;
+
+}
+
+.myWorkContainer p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 17px 37px;
+
+}
+
+.myWork a {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0px 37px;
+}
+
+.myWork a:hover {
+    color: red;
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<  Responsive page here  >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1255px) {
+    /* * {
+        background-color: rgb(191, 238, 238);
+    }  */
+
+
+    .buttons {
+        font-size: 12px;
+        margin-top: 8px;
+
+    }
+
+    .buttons button {
+        font-size: 12px;
+        margin-top: 12px;
+
+    }
+
+    .moreabout {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1em;
+        margin-top: 8px;
+    }
+
+
+    /* .sidebar {
+        transform: translate(-435px, 0px);
+        position: absolute;
+    }  */
+
+    .devInfo {
+        font-size: 10px;
+    }
+
+    .infoContainer {
+
+        margin: 0px auto;
+    }
+
+    .intro,
+    .blogContainer {
+        margin: 50px 8px;
+    }
+
+
+    #form-check input {
+        width: 20px;
+        margin: 5px 0;
+
+    }
+
+    .myWork a {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;
+    }
+
+    .myWorkContainer {
+        margin: 39px 28px;
+        text-align: justify;
+    }
+
+    .myWorkContainer h1 {
+        font-size: 1.8em;
+        margin: 6px;
+    }
+
+    .myWorkContainer li {
+        font-size: 1.4em;
+        word-spacing:normal ;
+    }
+
+    .myWorkContainer p {
+        font-size: 15px;
+        word-spacing: normal;
+    }
+
+    .contactform {
+        padding: 0 10px;
+        margin: 34px 0px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .infoContainer {
+
+        margin: 49px 13px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .devpic {
+        display: none;
+    }
+    .myWorkContainer li {
+        font-size: 1.2em;
+        word-spacing:normal ;
+    }
+
+    .myWorkContainer p {
+        font-size: 12px;
+        word-spacing: normal;
+    }
+    .myWorkContainer a {
+        font-size: 9px;
+        word-spacing: normal;
+    }
+
+}

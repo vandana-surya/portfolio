@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vandana - personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+        
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="services.html">My Work</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="hambug.png" alt="" width="25">
+                <img class="cross" src="cross1.png" alt="" width="30">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work/general Enquiries</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="Name" class="form-control" id="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="clientemail">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-muted">We'll never share your email & phone with
+                            anyone else</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientphone">Phone</label>
+                        <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="form-group">
+                        <label for="clientemail">Enquiry</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                    </div>
+                    <div id="form-check">
+                        <input type="checkbox" id="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
